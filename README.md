@@ -56,3 +56,5 @@ datetime.datetime(2012, 2, 26, 13, 0, 0, 775217, tzinfo=<UTC>)
 ### objects.all() displays all the questions in the database.
 > >>> Question.objects.all()
 
+# Create Superuser Admin Site
+> $ python manage.py createsuperuser
