@@ -15,3 +15,7 @@ Using Conda
 
 # Create Django App
 > $ python manage.py startapp polls
+
+# Working With Database
+- Create Table
+> $ python manage.py migrate
