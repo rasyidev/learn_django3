@@ -3,8 +3,10 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-   def detail(request, question_id):
-    return HttpResponse("You're looking at question %s." % question_id)
+   return HttpResponse("You're at the index of polls app")
+
+def detail(request, question_id):
+   return HttpResponse("You're looking at question %s." % question_id)
 
 def results(request, question_id):
     response = "You're looking at the results of question %s."
