@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{title}}</title>
+</head>
+<body>
+	<h1>{{title}}</h1>
+	<h3>{{subtitle}}</h3>
+	<ul>
+		{% for link, name in nav %}
+		<li>
+			<a href="{{link}}">{{name}}</a>
+		</li>
+		{% endfor %}
+
+	</ul>
+
+</body>
+</html>

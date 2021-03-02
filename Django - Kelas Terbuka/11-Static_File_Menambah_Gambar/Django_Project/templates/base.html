@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>{{title}} | Rasyidev</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	{% include 'snippets/style.html' %}
+</head>
+
+<body>
+	<img style="width:100%" src="{% static banner %}">
+	{% include 'snippets/navbar.html' %}
+	<h1>{{subtitle}}</h1>
+   {% block quote %}
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, repellat tempora provident id obcaecati sit voluptate consequatur maiores, velit laudantium quisquam itaque ad asperiores eum optio animi sapiente culpa at.</p>
+   {% endblock quote %}
+
+	{% include 'snippets/script.html' %}
+</body>
+
+</html>
