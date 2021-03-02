@@ -80,9 +80,13 @@ datetime.datetime(2012, 2, 26, 13, 0, 0, 775217, tzinfo=<UTC>)
 >>> q.choice_set.count()
 3
 
-# Html snipets, emmets is missing?
+### Troubleshoot Problems / Errors 
+## Html snipets, emmets is missing?
 - > I found this problem while writing the first html for the views using django templates. But there is no html snipets and emmets showed up. Then this setting on vscode helped me to get back the snipets and emmet.
 >  
 > `CTRL + ,` -> `search:emmet` -> on include languages, input key:value pair as `"django-html"` - `"html"`
+- Runtime error when trying to logout django
+> Go to this stackoverflow [answer](https://stackoverflow.com/questions/31779234/runtime-error-when-trying-to-logout-django/31779289#31779289)
+
 
 
